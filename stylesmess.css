@@ -1,0 +1,114 @@
+*{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: 'Baloo Bhaijaan 2', cursive;
+    /* margin: 0px 0px; */
+    /* padding: 0px 0px; */
+}
+.logo{
+    position: relative;
+}
+.heading{
+    position: relative;
+    top: -130px;
+    text-align: center;
+}
+.ULNavBar{
+    display: inline;
+    float: left;
+    overflow: auto;
+    width:19%;
+    /* height: 50px; */
+}
+.navbar{
+    overflow: auto;
+    /* width: max-content; */
+}
+.navbar a{
+    display: block;
+    /* background-color: #0088CC; */
+    background-color: rgb(44,52,57);
+    color: white;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+    font-size: 17px;
+}
+.navbar a.active{
+    background-color: #04AA6D;
+    color: white ;
+}
+.Gallery{
+    position: relative;
+    top: 20px;
+    display: inline-flex;
+}
+.slideshow{
+    height: 430px;
+    width : 600px;
+}
+
+.midbody{
+    /* border: 2px solid red; */
+    height: 70vh;
+    position: relative;
+    top: -90px;
+    /* background-color: aliceblue; */
+    background-color: whitesmoke;
+    margin: 0px 0px;
+    /* background-color:; */
+}
+
+.midbodysection{
+    /* border: 2px solid green; */
+    display: flex;
+    width: 1000px;
+    position: relative;
+    left: 200px;
+    border-radius: 10px;
+    top: 45px;
+    height: 400px;
+    box-shadow: 10px 10px 5px lightblue;
+    background-color: white;
+    /* background-color: whitesmoke; */
+}
+
+
+.mbright img{
+    width:500px;
+    border-radius: 10px;
+    height: 400px;
+}
+
+.mbleftheading{
+    /* border: 2px solid red; */
+    background-color: grey;
+    justify-content: center;
+    text-align: center;
+    font-size: 30px;
+
+    width: 80%;
+    position: relative;
+    left: 50px;
+    top: 5px;
+    border-radius: 20px;
+    box-shadow: 10px 10px 5px lightblue;
+}
+
+.mbleftm{
+    padding: 0px 20px;
+    /* border: 2px solid red; */
+    height: 286px;
+    overflow: scroll;
+}
+
+
+.footer
+{
+    /* border: 2px solid red; */
+    justify-content: center;
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 3px 10px;
+    border-radius: 5px;
+}
