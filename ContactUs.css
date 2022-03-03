@@ -1,0 +1,89 @@
+*{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: 'Baloo Bhaijaan 2', cursive;
+}
+.logo{
+    position: relative;
+}
+.heading{
+    position: relative;
+    top: -130px;
+    text-align: center;
+}
+.ULNavBar{
+    display: inline;
+    float: left;
+    overflow: auto;
+    width:19%;
+    /* height: 50px; */
+}
+.navbar{
+    overflow: auto;
+    /* width: max-content; */
+}
+.navbar a{
+    display: block;
+    /* background-color: #0088CC; */
+    background-color: rgb(44,52,57);
+    color: white;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+    font-size: 17px;
+}
+.navbar a.active{
+    background-color: #04AA6D;
+    color: white ;
+}
+.details{
+     top: 50px;
+} 
+
+h4{ 
+     text-align: center;
+}
+
+form{
+    line-height: 32px;
+    width: 96%; 
+    text-align: center;
+    display : block;
+}
+
+fieldset{
+    background-color: #f1f1f1;
+    border: none;
+    border-radius: 2px;
+    margin-bottom: 12px;
+    overflow: hidden;
+    padding: 0 .625em;
+}
+
+label{
+    cursor: pointer;
+    display: inline-block;
+    padding: 3px 6px;
+    text-align: right;
+    width: 150px;
+    vertical-align: top;
+}
+
+.textbox{ 
+    width: 100%;
+    margin: 22px 0px;
+    border-bottom: 2px solid grey;
+    
+} 
+
+
+
+.footer
+{
+    /* border: 2px solid red; */
+    justify-content: center;
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 3px 10px;
+    border-radius: 5px;
+}
